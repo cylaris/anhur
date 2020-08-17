@@ -1,12 +1,12 @@
 # Anhur IMIE [Isolated Malware Investigation Environment].
-
+Anhur IMIE is a sandbox project based on various other softwares and tools, it is likely effective in an internal environment as well as most SOC's as it provides a good level of capability in sandboxing malware, you can at your own discretion add further tools into the VM you wish to use for analysis, such as dissassemblers or dynamic analysis tools to further investigate. 
+In what I have provided it is mostly a virtual machine which will fire on Suricata NIDS alerts, as Suricata is a NIDS it is noisy but highly effective in catching threats, should you wish to add FIM/ Regmon that is totally up to you and can be done in conjunction with this tutorial to build an even larger capability for organisations that require it, again, it should be noted that this will be noisier and require larger infrastructure to handle such a high number of logs, and possibly VProcessors/ RAM for the VM shipping it depending on tools, monitoring used on it. 
 # Please note: 
 If you decide to proceed in following this tutorial in building your own sandbox, you accept that:
 Software used in the making of this behemoth is not owned by the repository owner, it is the proprietary software of their respective owners unless its licensing states otherwise. 
 Absolutely NO CRYING if you fail to isolate your environments, I take no responsibility in this as I have not and will not audit individual environments, if you are not sure if you are able to isolate effectively or you think that my precautions are not enough, either a). stop right here or b). add more security precautions and carry on.
 
 # Steps (sorry for no pictures/ video yet)
-
 1. You will need some virtual machines to be the 'sandbox' essentially a sandbox is nothing special, it is purely a windows machine that is segregated from the rest of the network. So create some virtual machines wherever you have space for them. A RAM of 4GB/Machine is recommended though I'm sure you could run it on 2GB if you REALLY wanted to...
 (I found the easiest way to grab an ISO for Windows 10 was via https://www.microsoft.com/en-gb/evalcenter/evaluate-windows-10-enterprise - 90 days Win 10 enterprise eval edition, the time should reset if you are reverting the machine, if not you can use CMD and type 'slmgr -rearm', without quotes, to reset the 90 days.)
 
