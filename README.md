@@ -26,6 +26,7 @@ IP Fire firewall download link: https://www.ipfire.org/
 can of course always follow Elastic's own guides but I have always found third party guides better.
 
 Elasticsearch download link: https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.8.1-linux-x86_64.tar.gz
+
 Kibana download link: https://artifacts.elastic.co/downloads/kibana/kibana-7.8.1-linux-x86_64.tar.gz
 
 4. Once you are sure that these machines are segregated, you will need to install Suricata and Filebeat; Suricata to generate logs, alerts
