@@ -5,6 +5,8 @@ If you decide to proceed in following this tutorial in building your own sandbox
 Software used in the making of this behemoth is not owned by the repository owner, it is the proprietary software of their respective owners unless its licensing states otherwise. 
 Absolutely NO CRYING if you fail to isolate your environments, I take no responsibility in this as I have not and will not audit individual environments, if you are not sure if you are able to isolate effectively or you think that my precautions are not enough, either a). stop right here or b). add more security precautions and carry on.
 
+# Steps (sorry for no pictures/ video yet)
+
 1. You will need some virtual machines to be the 'sandbox' essentially a sandbox is nothing special, it is purely a windows machine that is segregated from the rest of the network. So create some virtual machines wherever you have space for them. A RAM of 4GB/Machine is recommended though I'm sure you could run it on 2GB if you REALLY wanted to...
 (I found the easiest way to grab an ISO for Windows 10 was via https://www.microsoft.com/en-gb/evalcenter/evaluate-windows-10-enterprise - 90 days Win 10 enterprise eval edition, the time should reset if you are reverting the machine, if not you can use CMD and type 'slmgr -rearm', without quotes, to reset the 90 days.)
 
