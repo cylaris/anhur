@@ -1,6 +1,7 @@
 # Anhur IMIE [Isolated Malware Investigation Environment].
 
-Please note: If you decide to proceed in following this tutorial in building your own sandbox, you accept that:
+# Please note: 
+If you decide to proceed in following this tutorial in building your own sandbox, you accept that:
 Software used in the making of this behemoth is not owned by the repository owner, it is the proprietary software of their respective owners unless its licensing states otherwise. 
 Absolutely NO CRYING if you fail to isolate your environments, I take no responsibility in this as I have not and will not audit individual environments, if you are not sure if you are able to isolate effectively or you think that my precautions are not enough, either a). stop right here or b). add more security precautions and carry on.
 
@@ -64,6 +65,7 @@ long URL.
 -Xms4g
 -Xmx4g"
 
+# Hello World! ttfhw? - no?
 If you have carried out these steps effectively it is likely that you have a working sandbox environment, in the future I plan to add further capability to this project including adding a fake network feature to force malware to disclose its IOC's without using a dissassembler as well as anti-evasion techniques. However prior to this I will get myself a development environment where I can fully flesh out this tutorial with images and possibly a POC video so that it is much easier to follow along. You can obviously create this same VM with other OS's or add in a lot of other capability as discussed above.
 
 If you would like to contribute don't hesitate to reach out to me, it would be good to have some helping hands and possibly build some other cool stuff. 
