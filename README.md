@@ -1,6 +1,9 @@
 # Anhur IMIE [Isolated Malware Investigation Environment].
 Anhur IMIE is a sandbox project based on various other softwares and tools, it is likely effective in an internal environment as well as most SOC's as it provides a good level of capability in sandboxing malware, you can at your own discretion add further tools into the VM you wish to use for analysis, such as dissassemblers or dynamic analysis tools to further investigate. 
 
+Anhur IMIE Dashboard:
+![alt text](https://i.ibb.co/0rr5HVC/anhur-imie.jpg)
+Elastic Kibana ECS Suricata Events Overview:
 ![alt text](https://www.elastic.co/guide/en/beats/filebeat/current/images/filebeat-suricata-events.png)
 
 In what I have provided it is mostly a virtual machine which will fire on Suricata NIDS alerts, as Suricata is a NIDS it is noisy but highly effective in catching threats, should you wish to add FIM/ Regmon that is totally up to you and can be done in conjunction with this tutorial to build an even larger capability for organisations that require it, again, it should be noted that this will be noisier and require larger infrastructure to handle such a high number of logs, and possibly VProcessors/ RAM for the VM shipping it depending on tools, monitoring used on it. 
