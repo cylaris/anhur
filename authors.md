@@ -6,7 +6,7 @@ Cam Coller (@basedfir)
 
 Matthew Rich (@0xr1ch)
 
-
+Anthony Hewlett (@S1L3NTSHADOW159)
 
 # Software Dependencies:
 
