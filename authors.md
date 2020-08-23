@@ -2,11 +2,11 @@
 
 Based DFIR Team: Anhur IMIE
 
-Cam Coller (@basedfir)
+Cam Coller (@basedfir) - Detections stuff, NIDS, ELK
 
-Matthew Rich (@0xr1ch)
+Matthew Rich (@0xr1ch) - Infrastructure, Containers, Networking, other geeky stuff. 
 
-Anthony Hewlett (@S1L3NTSHADOW159)
+Anthony Hewlett (@S1L3NTSHADOW159) - All you see is what he made
 
 # Software Dependencies:
 
