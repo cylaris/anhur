@@ -2,9 +2,10 @@
 
 Based DFIR Team: Anhur IMIE
 
-Cam Coller
+Cam Coller (@basedfir)
 
-Matthew Rich 
+Matthew Rich (@0xr1ch)
+
 
 
 # Software Dependencies:
