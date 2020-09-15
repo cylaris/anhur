@@ -43,9 +43,13 @@ TightVNC acts as a VNC server. In this set-up, websockify (a websocket-to-TCP-br
 
     a). **Install NPM**. 
     
-    b). Test installation is working: *npm -v*
+    b). Test installation is working: 
+       
+        *npm -v*
     
-    c). **Install Websockify** (websocket): *npm install --save node-websockify*
+    c). **Install Websockify** (websocket): 
+    
+        *npm install --save node-websockify*
 
     d). **Create a folder** anywhere called: '*NoVNC*'
     
@@ -62,7 +66,9 @@ TightVNC acts as a VNC server. In this set-up, websockify (a websocket-to-TCP-br
     
     i). **In the HTML folder, remove what is there. Then download the NoVNC files (https://github.com/novnc/noVNC.git) into the directory (/NoVNC/Nginx/HTML/)**
     
-    j). Start nginx, **go to the /NoVNC/Nginx/ directory within CMD and type 'start nginx'**.
+    j). Start nginx, **go to the /NoVNC/Nginx/ directory within CMD and type**:
+    
+        *start Nginx*
     
     k). Test this is all working by going to *localhost/vnc.html* (if you see NOVNC in large green/yellow letters - it is!).
     
