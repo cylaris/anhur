@@ -18,13 +18,14 @@ If you fail to isolate your environments, I take no responsibility in this as I 
 There is currently not a completed version of the installation script available for download however this will be coming in the near future, so if you'd prefer to wait then do that as I will need infrastructure to develop this on. (If you can provide this please contact me - thank you!).
 
 ## Tutorial ##
-1. Windows 10 VM spun up, eval edition can be found here: https://www.microsoft.com/en-gb/evalcenter/evaluate-windows-10-enterprise - this lasts 90 days. If not you can use CMD and type 'slmgr -rearm' to reset it.
+1. Windows 10 VM spun up, eval edition can be found here: https://www.microsoft.com/en-gb/evalcenter/evaluate-windows-10-enterprise - this lasts 90 days. If not you can use CMD to reset 
+
+slmgr -rearm
+
+2. Install Filebeat on Win 10 VM; **configure filebeat to pull logs from c:\program files\suricata\log\eve.json** and then **configure it to send the logs to your Security Onion instance** when it is configured (e.g. http://192.168.0.1:9200), authentication is really only necessary externally.
 
 
-2. Install Filebeat on Win 10 VM; configure filebeat to pull logs from c:\program files\suricata\log\eve.json and then configure it to send the logs to your Security Onion instance when it is configured (e.g. http://192.168.0.1:9200), authentication is really only necessary externally.
-
-
-3. On your physical host, configure autorevert, this can vary depending on your architecture:
+3. **On your physical host, configure autorevert**, this can vary depending on your architecture:
 VMWare:
 
 Hyper-V:
@@ -36,11 +37,11 @@ Red Hat:
 KVM:
 
 
-4. Configure TightVNC, to forward connections from a websocket you will set up in the next step:
+4. **Configure TightVNC**, to forward connections to from a websocket you will set up in the next step:
 TightVNC acts as a VNC server. In this set-up, websockify (a websocket-to-TCP-bridge) is to proxy a port from the web, to the VNC client, and NoVNC's purpose is to purely be the web-interface.
 
 
-5. Configure Nginx, NoVNC and Websockify. These are all together for a reason:
+5. **Configure Nginx, NoVNC and Websockify**: these are all together for a reason:
 
     a). **Install NPM**. 
     
