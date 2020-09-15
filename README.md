@@ -98,7 +98,7 @@ GitBash can be downloaded from this repository.
 -Xms4g
 -Xmx4g"
 
-# Hello World! ttfhw? - no?
+## Final Notes ##
 If you have carried out these steps effectively it is likely that you have a working sandbox environment, in the future I plan to add further capability to this project including adding a fake network feature to force malware to disclose its IOC's without using a dissassembler as well as anti-evasion techniques. However prior to this I will get myself a development environment where I can fully flesh out this tutorial with images and possibly a POC video so that it is much easier to follow along. You can obviously create this same VM with other OS's or add in a lot of other capability as discussed above.
 
 If you would like to contribute don't hesitate to reach out to me, it would be good to have some helping hands and possibly build some other cool stuff. 
