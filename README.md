@@ -17,7 +17,7 @@ If you fail to isolate your environments, I take no responsibility in this as I 
 
 There is currently not a completed version of the installation script available for download however this will be coming in the near future, so if you'd prefer to wait then do that as I will need infrastructure to develop this on. (If you can provide this please contact me - thank you!).
 
-## Steps ##
+## Tutorial ##
 1. Windows 10 VM spun up, eval edition can be found here: https://www.microsoft.com/en-gb/evalcenter/evaluate-windows-10-enterprise - this lasts 90 days. If not you can use CMD and type 'slmgr -rearm' to reset it.
 
 
