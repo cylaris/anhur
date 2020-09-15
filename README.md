@@ -45,11 +45,11 @@ TightVNC acts as a VNC server. In this set-up, websockify (a websocket-to-TCP-br
     
     b). Test installation is working: 
        
-        *npm -v*
+        npm -v
     
     c). **Install Websockify** (websocket): 
     
-        *npm install --save node-websockify*
+        npm install --save node-websockify
 
     d). **Create a folder** anywhere called: '*NoVNC*'
     
@@ -59,8 +59,8 @@ TightVNC acts as a VNC server. In this set-up, websockify (a websocket-to-TCP-br
     
     g). **Paste this into websockify.js** that was just created: e.g. 
         
-        *var websockify = require('node-websockify');*
-        *websockify({  source: '127.0.0.1:8080', target: '192.168.0.100:5900'});*
+        var websockify = require('node-websockify');
+        websockify({  source: '127.0.0.1:8080', target: '192.168.0.100:5900'});
         
     h). **Create a folder in the root folder**, NoVNC named '**Nginx**' and then **extract the contents of Nginx-(ver).zip here**
     
@@ -68,7 +68,7 @@ TightVNC acts as a VNC server. In this set-up, websockify (a websocket-to-TCP-br
     
     j). Start nginx, **go to the /NoVNC/Nginx/ directory within CMD and type**:
     
-        *start Nginx*
+        start Nginx
     
     k). Test this is all working by going to *localhost/vnc.html* (if you see NOVNC in large green/yellow letters - it is!).
     
@@ -81,7 +81,7 @@ Once you have typed the config settings in websocket, it will work for that PC. 
 
 Download GitBash to make an easy script, that will run websockify.js each time the VM is started. It will utilise a module of NPM called forever. The most stable version is 1.0.0:
 
-*NPM command to grab Forever 1.0.0: npm i forever@1.0.0*
+NPM command to grab Forever 1.0.0: npm i forever@1.0.0
 
 GitBash can be downloaded from this repository.
 
