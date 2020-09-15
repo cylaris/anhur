@@ -1,13 +1,14 @@
 ![alt text](https://i.ibb.co/nPpksv0/basedfir-final-illustration-x4-colored-toned-illustration-x2.png)
 
-Anhur IMIE is a project based on various other softwares and tools, it is likely effective in an internal environment as well as most SOC's as it provides a good level of capability in sandboxing malware, you can at your own discretion add further tools into the VM you wish to use for analysis, such as dissassemblers or dynamic analysis tools to further investigate. 
+## Anhur IMIE | project by BaseDFIR ##
+This is a project based on various other softwares and tools, it is likely effective in an internal environment as well as most SOC's as it provides a good level of capability in sandboxing malware, you can at your own discretion add further tools into the VM you wish to use for analysis, such as dissassemblers or dynamic analysis tools to further investigate. 
 
 Elastic Kibana Suricata ECS Events:
 ![alt text](https://www.elastic.co/guide/en/beats/filebeat/current/images/filebeat-suricata-events.png)
 
 Please feel free to add to the project by adding in regmon/ fim/ sysmon. These additions will be coming however we are working on polishing off the first edition prior to bringing further ingredients to the mix.
 
-# Please note: 
+## Please note: ##
 If you decide to proceed in following this tutorial, you accept that:
 
 Software used in the making of this behemoth is not owned by the repository owner, it is the proprietary software of their respective owners unless its licensing states otherwise. 
@@ -16,7 +17,7 @@ If you fail to isolate your environments, I take no responsibility in this as I 
 
 There is currently not a completed version of the installation script available for download however this will be coming in the near future, so if you'd prefer to wait then do that as I will need infrastructure to develop this on. (If you can provide this please contact me - thank you!).
 
-# Steps (sorry for no pictures/ video yet)
+## Steps ##
 1. Windows 10 VM spun up, eval edition can be found here: https://www.microsoft.com/en-gb/evalcenter/evaluate-windows-10-enterprise - this lasts 90 days. If not you can use CMD and type 'slmgr -rearm' to reset it.
 
 
