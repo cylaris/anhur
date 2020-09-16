@@ -25,7 +25,7 @@ There is currently not a completed version of the installation script available 
 2. Install Filebeat on Win 10 VM; **configure filebeat to pull logs from c:\program files\suricata\log\eve.json** and then **configure it to send the logs to your Security Onion instance** when it is configured (e.g. http://192.168.0.1:9200), authentication is really only necessary externally.
 
 
-3. **On your physical host, configure autorevert**, this can vary depending on your architecture.
+3. **On your physical host, configure autorevert**, this can vary depending on your architecture. This step is optional, it is only really NECESSARY if dealing with serious malware and may actually function as a red herring to apppear as though the PC is used frequently to adversaries. 
 
 
 4. **Configure TightVNC**, to forward connections to from a websocket you will set up in the next step:
@@ -57,13 +57,13 @@ Once you have typed the config settings in websocket, it will work for that PC. 
 
 6. Download something like Git Bash to allow yourself to run a shell to then run websockify, you cant just do it via Node / Forever, I tried it. Bash will allow you to create a shell to run it, if you configure that properly via NSSM as well, you'll get websockify.js ran via Node.js Forever.js and then you're laughing because step 8/9 are savage.
 
-Run git bash found in this repository.
+     a). Run git bash found in this repository.
 
-Edit the script found in /Executables/run-websockify.js to the path in which websockify is stored on your host.
+     b). Edit the script found in /Executables/run-websockify.js to the path in which websockify is stored on your host.
 
-Use NPM to download forever.
+     c). Use NPM to download forever.
 
-NPM command to grab Forever 1.0.0: npm i forever@1.0.0
+            npm i forever@1.0.0
 
 ## Spin up SecurityOnion using the .iso ##
 
