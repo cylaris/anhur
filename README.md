@@ -63,7 +63,7 @@ Once you have typed the config settings in websocket, it will work for that PC. 
 
      c). Use NPM to download forever.
 
-            npm i forever@1.0.0
+         npm i forever@1.0.0
 
 ## Spin up SecurityOnion using the .iso ##
 
