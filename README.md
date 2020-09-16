@@ -52,40 +52,27 @@ TightVNC acts as a VNC server. In this set-up, websockify (a websocket-to-TCP-br
     c). **Install Websockify** (websocket): 
     
         npm install --save node-websockify
-
-    d). **Create a folder** anywhere called: '*NoVNC*'
     
-    e). A **folder within the NoVNC folder** called: '*Websockify*'
-    
-    f). **Within the Websockify folder**, using notepad, **save a document there named: websockify.js** (ensure to save it as all files type, not txt).
-    
-    g). **Paste this into websockify.js** that was just created: e.g. 
-        
-        var websockify = require('node-websockify');
-        websockify({  source: '127.0.0.1:8080', target: '192.168.0.100:5900'});
-        
-    h). **Create a folder in the root folder**, NoVNC named '**Nginx**' and then **extract the contents of Nginx-(ver).zip here**
-    
-    i). **In the HTML folder, remove what is there. Then download the NoVNC files (https://github.com/novnc/noVNC.git) into the directory (/NoVNC/Nginx/HTML/)**
-    
-    j). Start nginx, **go to the /NoVNC/Nginx/ directory within CMD and type**:
+    d). Start nginx, **go to the /NoVNC/Nginx/ directory within CMD and type**:
     
         start Nginx
     
-    k). Test this is all working by going to *localhost/vnc.html* (if you see NOVNC in large green/yellow letters - it is!).
+    e). Test this is all working by going to *localhost/vnc.html* (if you see NOVNC in large green/yellow letters - it is!).
     
-    l). Within the NoVNC page you have open now in your browser, **go to settings -> advanced -> websocket the host should stay 'localhost' for now, on another PC you will have         to type this small bit again with its actual IP address (ipconfig), the port is 8080 (as used in my example) and the path should stay websockify**.
+    f). Within the NoVNC page you have open now in your browser, **go to settings -> advanced -> websocket the host should stay 'localhost' for now, on another PC you will have         to type this small bit again with its actual IP address (ipconfig), the port is 8080 (as used in my example) and the path should stay websockify**.
     
 Once you have typed the config settings in websocket, it will work for that PC. You will need to do this small part on all PC's you plan to use it on. Externally of it luckily it will have the same IP address. If you follow until the end and configure a seperate nginx-hub to host multiple, this will become further seamless.
 
 
 6. Download something like Git Bash to allow yourself to run a shell to then run websockify, you cant just do it via Node / Forever, I tried it. Bash will allow you to create a shell to run it, if you configure that properly via NSSM as well, you'll get websockify.js ran via Node.js Forever.js and then you're laughing because step 8/9 are savage.
 
-Download GitBash to make an easy script, that will run websockify.js each time the VM is started. It will utilise a module of NPM called forever. The most stable version is 1.0.0:
+Run git bash found in this repository.
+
+Edit the script found in /Executables/run-websockify.js to the path in which websockify is stored on your host.
+
+Use NPM to download forever.
 
 NPM command to grab Forever 1.0.0: npm i forever@1.0.0
-
-GitBash can be downloaded from this repository.
 
 7. You can make a secondary webserver to host all the seperate VM's with all their seperate Nginx sandbox pages, I did this. Once you  eventually cave to the same pressure you can use the HTML document in the master of /not-a-sandbox as it holds the iFrames for the VM, alerts, connection logs.
 
