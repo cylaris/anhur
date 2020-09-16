@@ -67,7 +67,7 @@ Once you have typed the config settings in websocket, it will work for that PC. 
 
 ## Spin up SecurityOnion using the .iso ##
 
-Download the SecurityOnion .iso from: https://securityonion.net/ and then spin that up on a seperate host. As it is ELK in one I would recommend at bare minimum 16Gram/4cores/500Gstorage but you could probably pull it off with 8G/2cores/250G.
+Download the SecurityOnion .iso from: https://securityonion.net/ and then spin that up on a seperate host. As it is ELK in one I would recommend at bare minimum 16G/4cores/500G but you could probably pull it off with 8G/2 cores/250G.
 
 The installation process for this is
 
