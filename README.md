@@ -74,17 +74,13 @@ Use NPM to download forever.
 
 NPM command to grab Forever 1.0.0: npm i forever@1.0.0
 
+## Spin up SecurityOnion using the .iso ##
+
+Really this step is that simple. This is the most simple installation (for which you essentially go through , yes, next etc. And the result is a functioning ELK stack with Suricata/ Bro depending on what you prefer to use as a NIDS.
+
 7. You can make a secondary webserver to host all the seperate VM's with all their seperate Nginx sandbox pages, I did this. Once you  eventually cave to the same pressure you can use the HTML document in the master of /not-a-sandbox as it holds the iFrames for the VM, alerts, connection logs.
 
 8. iFrames! You can pull these out of Kibana to put them where I've put placeholders in the HTML by going to the top left of your visualization, Share, Embed Code, Saved        Object, Copy iFrame code. 
-
-9. It might be worth, if your ElasticSearch is running slowly, using the Elasticsearch.yml found in the master directory of this commit. It is also recommended to change the following from -Xms1g to -Xms4g within jvm.options in /etc/elasticsearch, this stops the dying elasticsearch from the constantly autorefreshing visualizations.
-
-"# Xms represents the initial size of total heap space
-“# Xmx represents the maximum size of total heap space
-
--Xms4g
--Xmx4g"
 
 ## Final Notes ##
 If you have carried out these steps effectively it is likely that you have a working sandbox environment, in the future I plan to add further capability to this project including adding a fake network feature to force malware to disclose its IOC's without using a dissassembler as well as anti-evasion techniques. However prior to this I will get myself a development environment where I can fully flesh out this tutorial with images and possibly a POC video so that it is much easier to follow along. You can obviously create this same VM with other OS's or add in a lot of other capability as discussed above.
