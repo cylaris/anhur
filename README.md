@@ -78,9 +78,11 @@ NPM command to grab Forever 1.0.0: npm i forever@1.0.0
 
 Really this step is that simple. This is the most simple installation (for which you essentially go through , yes, next etc. And the result is a functioning ELK stack with Suricata/ Bro depending on what you prefer to use as a NIDS.
 
-7. You can make a secondary webserver to host all the seperate VM's with all their seperate Nginx sandbox pages, I did this. Once you  eventually cave to the same pressure you can use the HTML document in the master of /not-a-sandbox as it holds the iFrames for the VM, alerts, connection logs.
+## Creating a Sandbox Server ##
 
-8. iFrames! You can pull these out of Kibana to put them where I've put placeholders in the HTML by going to the top left of your visualization, Share, Embed Code, Saved        Object, Copy iFrame code. 
+1. You can make a secondary webserver to host all the seperate VM's with all their seperate Nginx sandbox pages, I did this. Once you  eventually cave to the same pressure you can use the HTML document in the master of /not-a-sandbox as it holds the iFrames for the VM, alerts, connection logs.
+
+2. iFrames! You can pull these out of Kibana to put them where I've put placeholders in the HTML by going to the top left of your visualization, Share, Embed Code, Saved        Object, Copy iFrame code. 
 
 ## Final Notes ##
 If you have carried out these steps effectively it is likely that you have a working sandbox environment, in the future I plan to add further capability to this project including adding a fake network feature to force malware to disclose its IOC's without using a dissassembler as well as anti-evasion techniques. However prior to this I will get myself a development environment where I can fully flesh out this tutorial with images and possibly a POC video so that it is much easier to follow along. You can obviously create this same VM with other OS's or add in a lot of other capability as discussed above.
