@@ -1,4 +1,4 @@
-![alt text](https://i.ibb.co/nPpksv0/basedfir-final-illustration-x4-colored-toned-illustration-x2.png)
+![alt text](https://basedfir.com/assets/images/basedfir-git.png)
 
 ## Anhur IMIE | project by BaseDFIR ##
 This is a project based on various other softwares and tools, it is likely effective in an internal environment as well as most SOC's as it provides a good level of capability in sandboxing malware, you can at your own discretion add further tools into the VM you wish to use for analysis, such as dissassemblers or dynamic analysis tools to further investigate. 
