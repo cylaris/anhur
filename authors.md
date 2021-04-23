@@ -2,7 +2,7 @@
 
 Based DFIR Team: Anhur IMIE
 
-Cameron Baser (@basedfir) - Detections stuff, NIDS, ELK
+Cameron Baser (@basedfir) - Detections stuff, NIDS, ELK, bridging 
 https://uk.linkedin.com/in/cam-cg
 
 Matthew Rich (@0xr1ch) - Infrastructure, Containers, Networking, other geeky stuff. 
