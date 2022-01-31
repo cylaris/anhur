@@ -1,6 +1,6 @@
 ![alt text](https://static.wixstatic.com/media/fa2da5_a22354e11ada4292a79e0f8c2289b31b~mv2.png/v1/fill/w_243,h_113,al_c,q_85,usm_0.66_1.00_0.01/Monochrome%20on%20Transparent_edited.webp)
 
-## Open Source Interactive Malware Sandbox - Anhur##
+## Open Source Interactive Malware Sandbox - Anhur
 This is a project based on various other softwares and tools, it is likely effective in an internal environment as well as most SOC's as it provides a good level of capability in sandboxing malware, you can at your own discretion add further tools into the VM you wish to use for analysis, such as dissassemblers or dynamic analysis tools to further investigate. 
 
 Elastic Kibana Suricata ECS Events:
